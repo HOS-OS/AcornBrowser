@@ -1,95 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Download page where user can select M1 or Intel verion of app for macOS -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Acorn Browser</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-    }
-
-    .top-bar {
-      background-color: #f5f5f5;
-      padding: 20px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .top-bar img {
-      max-height: 40px;
-    }
-
-    .top-bar ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: flex;
-    }
-
-    .top-bar li {
-      margin-right: 20px;
-    }
-
-    .top-bar a {
-      text-decoration: none;
-      color: black;
-      padding: 10px 15px;
-      border-radius: 5px;
-      font-size: 16px;
-    }
-
-    .top-bar a:hover {
-      background-color: #e0e0e0;
-    }
-    
-    .container {
-      padding: 20px;
-      text-align: center;
-    }
-
-    .download-form {
-      margin-top: 20px;
-    }
-
-    /* Center image */
-    .center-image {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 50vh;
-    }
-
-    /* Style for additional information */
-    h2, p {
-      text-align: center;
-    }
-
-    /* Style for download form */
-    .download-form {
-      text-align: center;
-    }
-    
-    .btn {
-  -webkit-border-radius: 10;
-  -moz-border-radius: 10;
-  border-radius: 10px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 21px;
-  padding: 15px;
-  background: #418FAE;
-  text-decoration: none;
-}
-
-.btn:hover {
-  background: #3cb0fd;
-  text-decoration: none;
-}
-  </style>
+  <title>Acorn Browser Download</title>
+  <link rel="stylesheet" href="./styles/Download.css">
 </head>
 <body>
   <!-- Top Bar -->
@@ -97,20 +13,18 @@
     <img src="./images/logo.png" alt="logo1">
     <ul>
      <li><a href="./index.html">Home</a></li>
-      <li><a href="https://github.com/HOS-OS/Acorn/releases/latest/" target="_blank">Releases</a></li>
+      <li><a href="./Releases.html">Releases</a></li>
       <li><a href="https://github.com/HOS-OS/Acorn" target="_blank">GitHub</a></li>
       <!-- Add more links as needed -->
     </ul>
   </div>
 
-  <!-- Centered Image -->
+
   <div class="center-image">
     <img src="./images/down.webp" alt="Centered Image">
   </div>
 
-  <!-- Additional Information Container -->
   <div class="container">
-    <!-- Add more content as needed -->
 
    <!-- Download Form -->
 <form class="download-form">
@@ -121,9 +35,23 @@
   <a href="https://github.com/HOS-OS/acorn/releases/latest/download/Acorn.Browser.Intel.dmg" class="btn" >Download for Intel</a>
 </form>
 
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+<footer>
+  <div class="copyright">
+    &copy; 2024 Hunter Null. All rights reserved.
   </div>
-
-  <script src="./js/script.js"></script>
-
+  <div class="contact-info">
+    Contact: 
+    <a href="mailto:hosos.suport@gmail.com">hosos.suport@gmail.com</a>
+    | Phone: +4192806885
+  </div>
+ </footer>
+</div>
 </body>
 </html>
