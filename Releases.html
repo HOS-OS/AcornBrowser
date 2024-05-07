@@ -1,10 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
-        <!-- Relases page show previous releases and the changes added or taken out.-->
+<html>
+    <!-- Page for github releases, it pulls the info from github.com -->
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Acorn Browser Template Page</title>
+  <title>Acorn Browser Releases</title>
   <link rel="stylesheet" href="./styles/Releases.css">
 </head>
 <body>
@@ -22,9 +20,9 @@
 
   <!-- Container for GitHub Releases -->
   <div class="container" id="releases">
-    <script src="./js/Releases.js"></script>
-</div>
- 
+    <ul id="release-list"></ul>
+  </div>
 
+  <script src="./js/Releases.js"></script>
 </body>
 </html>
